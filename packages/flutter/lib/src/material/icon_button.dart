@@ -16,7 +16,7 @@ import 'tooltip.dart';
 
 // Minimum logical pixel size of the IconButton.
 // See: <https://material.io/guidelines/layout/metrics-keylines.html#metrics-keylines-touch-target-size>
-const double _kMinButtonSize = 48.0;
+const double _kMinButtonSize = 0.0;
 
 /// A material design icon button.
 ///
@@ -82,7 +82,7 @@ class IconButton extends StatelessWidget {
   const IconButton({
     Key key,
     this.iconSize = 24.0,
-    this.padding = const EdgeInsets.all(8.0),
+    this.padding = const EdgeInsets.all(0.0),
     this.alignment = Alignment.center,
     @required this.icon,
     this.color,
